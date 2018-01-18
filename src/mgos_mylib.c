@@ -1,5 +1,7 @@
-#include "mgos.h"
+#include "mgos_mylib.h"
 
-bool mgos_empty_init(void) {
+// NOTE: library init function must be called mgos_LIBNAME_init()
+bool mgos_mylib_init(void) {
   return true;
 }
+
